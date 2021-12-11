@@ -1,0 +1,44 @@
+{
+    "addons": [
+        "heroku-postgresql"
+    ],
+    "buildpacks": [],
+    "env": {
+        "NPM_CONFIG_PRODUCTION": {
+            "required": true,
+            "value": false
+        },
+        "JWT_SECRET": {
+            "required": true,
+            "value": "secret"
+        },
+        "DB_USER": {
+            "required": true,
+            "value": "prbdgedjloybse"
+        },
+        "DB_PASSWORD": {
+            "required": true,
+            "value": "ca0ba124222c6d2d51304708085daa5e070e1037811f4e618e62a65a0e8723f3"
+        },
+        "DB_HOST": {
+            "required": true,
+            "value": "ec2-35-171-90-188.compute-1.amazonaws.com"
+        },
+        "DB_PORT": {
+            "required": true,
+            "value": "5432"
+        },
+        "DB_NAME": {
+            "required": true,
+            "value": "dc4um0mj51fi5g"
+        },
+        "DB_DIALECT": {
+            "required": true,
+            "value": "postgres"
+        }
+    },
+    "formation": {},
+    "name": "voting-iprc",
+    "scripts": {},
+    "stack": "heroku-20"
+}

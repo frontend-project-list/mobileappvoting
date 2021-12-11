@@ -1,0 +1,12 @@
+{
+  "name": "votingapp",
+  "displayName": "votingapp",
+  "expo": {
+    "name": "votingapp",
+    "slug": "votingapp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
